@@ -1,7 +1,14 @@
-import "./styles/App.css";
+import React from "react";
+import { Route, Switch } from "react-router-dom";
+import Layout from "./layout/Layout.js";
 
 function App() {
-  return <h1>Hello World!</h1>;
+  return (
+    <Switch>
+      <Route path="/">
+        <Layout />
+      </Route>
+    </Switch>);
 }
 
 export default App;
