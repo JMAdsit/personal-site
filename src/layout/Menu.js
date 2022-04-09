@@ -1,9 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import NavButton from "../components/NavButton";
 
 function Menu() {
     return (
-        <nav>Menu</nav>
+        <nav>Menu
+            <NavButton name="Home" link="/" />
+        </nav>
     );
 }
 
