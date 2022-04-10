@@ -3,8 +3,9 @@ import NavButton from "../components/NavButton";
 
 function Menu() {
     return (
-        <nav>Menu
+        <nav>
             <NavButton name="Home" link="/" />
+            <NavButton name="About" link="/about" />
         </nav>
     );
 }

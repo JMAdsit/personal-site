@@ -1,8 +1,14 @@
 import React from "react";
+import { Route, Switch } from "react-router-dom";
+import About from "../components/About";
 
 function Routes() {
     return (
-        <h2>content</h2>
+        <Switch>
+            <Route path="/about">
+                <About />
+            </Route>
+        </Switch>
     );
 }
 
