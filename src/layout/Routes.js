@@ -1,8 +1,8 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import Home from "../components/Home";
-import About from "../components/About";
-import NotFound from "../components/NotFound";
+import Home from "../pages/Home";
+import About from "../pages/About";
+import NotFound from "../pages/NotFound";
 
 function Routes() {
     return (
