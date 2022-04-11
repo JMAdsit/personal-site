@@ -1,9 +1,14 @@
 import React from "react";
+import MainCard from "../components/MainCard";
 
 function Home() {
-    return <div>
-        <h2>Home</h2>
-    </div>
+    let title = "Home";
+    let body = "Home page stuff.";
+
+    return <MainCard 
+        title={title}
+        body={body}
+    />
 }
 
 export default Home;

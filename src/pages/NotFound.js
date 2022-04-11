@@ -1,4 +1,5 @@
 import React from "react";
+import MainCard from "../components/MainCard";
 
 /**
  * Defines the "Not Found" page that is displayed for any unmatched route.
@@ -8,9 +9,15 @@ import React from "react";
  * @returns {JSX.Element}
  */
 function NotFound() {
+  let title = "Page Not Found";
+  let body = "";
+  
   return (
     <div className="NotFound">
-      <h1>Not Found</h1>
+      <MainCard 
+        title={title}
+        body={body}    
+      />
     </div>
   );
 }
