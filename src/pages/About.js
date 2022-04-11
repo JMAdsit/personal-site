@@ -1,9 +1,14 @@
 import React from "react";
+import MainCard from "../components/MainCard";
 
 function About() {
-    return <div>
-        <h2>About Me</h2>
-    </div>
+    let title = "About Me";
+    let body = "Things about me.";
+
+    return <MainCard 
+        title={title}
+        body={body}
+    />
 }
 
 export default About;
