@@ -6,6 +6,7 @@ function Menu() {
         <nav className="navbar" >
             <NavButton name="Home" link="/" />
             <NavButton name="About" link="/about" />
+            <NavButton name="Projects" link="/projects" />
         </nav>
     );
 }
