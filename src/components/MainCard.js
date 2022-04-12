@@ -1,7 +1,8 @@
 import React from "react";
 
 function MainCard({title, body}) {
-    return <div className="card">
+    return (
+    <div className="card">
         <div className="card-body">
             <h2 className="card-title">
                 {title}
@@ -10,7 +11,7 @@ function MainCard({title, body}) {
                 {body}
             </p>
         </div>
-    </div>
+    </div>);
 }
 
 export default MainCard;
