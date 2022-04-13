@@ -8,16 +8,16 @@ import NotFound from "../pages/NotFound";
 function Routes() {
     return (
         <Switch>
+            <Route exact={true} path="/">
+                <Home />
+            </Route>
+
             <Route exact={true} path="/about">
                 <About />
             </Route>
 
-            <Route>
-                <Projects exact={true} path="/projects" />
-            </Route>
-
-            <Route exact={true} path="/">
-                <Home />
+            <Route exact={true} path="/projects">
+                <Projects />
             </Route>
 
             <Route>
