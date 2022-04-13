@@ -1,16 +1,24 @@
 import React from "react";
 
-function ProjectCard({title, body, link}) {
+function ProjectCard({ project }) {
     return (
     <div className="card">
         <div className="card-body">
+            
             <h2 className="card-title">
-                {title}
+                {project.title}
             </h2>
+
             <p className="card-text">
-                {body}
+                {project.description}
             </p>
-            <a href={link.html} >{link.text}</a>
+
+            <a 
+            href={project.html} 
+            target="_blank" 
+            rel="noreferrer">
+                {project.linkText}
+            </a>
         </div>
     </div>);
 }
