@@ -3,8 +3,8 @@ import ProjectCard from "../components/ProjectCard";
 
 function Projects() {
     let exampleProject = {
-        title: "Project",
-        description: "This is a thing I did.",
+        title: "Restaurant Reservation System",
+        description: "A restaurant reservation system built with React, Bootstrap, Node, Express, Knex, and PostgreSQL.",
         html: "https://www.duckduckgo.com",
         linkText: "This is a link."
     };
