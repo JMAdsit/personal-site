@@ -5,7 +5,7 @@ import ProjectCardReservation from "../components/ProjectCardReservations";
 function Projects() {
 
     return (
-        <div>
+        <div className="d-md-flex">
             <ProjectCardReservation />
 
             <ProjectCard />
