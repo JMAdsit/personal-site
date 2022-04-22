@@ -24,14 +24,16 @@ function ProjectCardReservation() {
                 {description}
             </p>
 
-            <a 
+            <a
+            className="btn btn-primary"  
             href={deployHTML} 
             target="_blank" 
             rel="noreferrer">
                 {deployText}
             </a>
 
-            <a 
+            <a
+            className="btn btn-secondary"
             href={gitHTML} 
             target="_blank" 
             rel="noreferrer">
