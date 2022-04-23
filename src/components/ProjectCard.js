@@ -20,7 +20,8 @@ function ProjectCard() {
                 {description}
             </p>
 
-            <a 
+            <a
+            className="btn btn-secondary"
             href={html} 
             target="_blank" 
             rel="noreferrer">
