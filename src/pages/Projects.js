@@ -5,7 +5,7 @@ import ProjectCardReservation from "../components/ProjectCardReservations";
 function Projects() {
 
     return (
-        <div className="d-md-flex">
+        <div className="d-flex flex-column justify-content-center">
             <ProjectCardReservation />
 
             <ProjectCard />
