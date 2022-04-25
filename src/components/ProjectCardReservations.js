@@ -13,7 +13,7 @@ function ProjectCardReservation() {
 
     
     return (
-    <div className="card">
+    <div className="card rounded border border-primary my-3 mx-auto">
         <div className="card-body">
             
             <h2 className="card-title">
