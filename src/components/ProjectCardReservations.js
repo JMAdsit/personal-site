@@ -16,7 +16,7 @@ function ProjectCardReservation() {
     <div className="card rounded border border-primary my-3 mx-auto">
 
         <div className="card-header">
-            <h2 className="card-title">
+            <h2 className="card-title text-center">
                 {title}
             </h2>
         </div>
@@ -27,21 +27,23 @@ function ProjectCardReservation() {
                 {description}
             </p>
 
-            <a
-            className="btn btn-primary"  
-            href={deployHTML} 
-            target="_blank" 
-            rel="noreferrer">
-                {deployText}
-            </a>
+            <div className="text-right">
+                <a
+                className="btn btn-primary"  
+                href={deployHTML} 
+                target="_blank" 
+                rel="noreferrer">
+                    {deployText}
+                </a>
 
-            <a
-            className="btn btn-secondary"
-            href={gitHTML} 
-            target="_blank" 
-            rel="noreferrer">
-                {gitText}
-            </a>
+                <a
+                className="btn btn-secondary"
+                href={gitHTML} 
+                target="_blank" 
+                rel="noreferrer">
+                    {gitText}
+                </a>
+            </div>
         </div>
     </div>);
 }

@@ -12,7 +12,7 @@ function ProjectCard() {
     <div className="card rounded border border-primary my-3 mx-auto">
 
         <div className="card-header">
-            <h2 className="card-title">
+            <h2 className="card-title text-center">
                 {title}
             </h2>
         </div>
@@ -23,13 +23,15 @@ function ProjectCard() {
                 {description}
             </p>
 
-            <a
-            className="btn btn-secondary"
-            href={html} 
-            target="_blank" 
-            rel="noreferrer">
-                {linkText}
-            </a>
+            <div className="text-right">
+                <a
+                className="btn btn-secondary"
+                href={html} 
+                target="_blank" 
+                rel="noreferrer">
+                    {linkText}
+                </a>
+            </div>
         </div>
     </div>);
 }
