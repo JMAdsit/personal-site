@@ -10,12 +10,15 @@ function ProjectCard() {
 
     return (
     <div className="card rounded border border-primary my-3 mx-auto">
-        <div className="card-body">
-            
+
+        <div className="card-header">
             <h2 className="card-title">
                 {title}
             </h2>
+        </div>
 
+        <div className="card-body">
+            
             <p className="card-text">
                 {description}
             </p>
