@@ -5,10 +5,14 @@ function Home() {
     let title = "Home";
     let body = "Home page stuff.";
 
-    return <MainCard 
-        title={title}
-        body={body}
-    />
+    return (
+        <div className="d-flex flex-column justify-content-center">
+            <MainCard 
+                title={title}
+                body={body}
+            />
+        </div>
+    );
 }
 
 export default Home;
