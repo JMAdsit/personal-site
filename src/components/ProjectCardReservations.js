@@ -3,7 +3,7 @@ import React from "react";
 function ProjectCardReservation() {
 
     let title = "Restaurant Reservation System";
-    let description = "A restaurant reservation system built with React, Bootstrap, Node, Express, Knex, and PostgreSQL.";
+    let description = "A restaurant reservation system built with Node, React, Bootstrap, Express, Knex, and PostgreSQL.";
     
     let deployHTML = "https://jma-reservation-client.herokuapp.com/dashboard";
     let deployText = "Deployment";

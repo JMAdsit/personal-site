@@ -6,7 +6,7 @@ function ProjectCard() {
     let description = "This is an imaginary thing.";
 
     let html = "https://www.duckduckgo.com";
-    let linkText = "This goes somewhere.";
+    let linkText = "Link";
 
     return (
     <div className="card rounded border border-primary my-3 mx-auto">
