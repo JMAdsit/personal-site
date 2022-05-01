@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 function NavButton({name, link}) {
     return (
-        <div className="nav-item">
+        <div className="nav-item mx-2 btn btn-info">
             <Link 
-            className="nav-link"
+            className="nav-link text-white"
             to={link}>
                 {name}
             </Link>
